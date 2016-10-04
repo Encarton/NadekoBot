@@ -149,13 +149,19 @@ TMUX
 **Type** `y` **hit Enter**
 
 ####NOW WE NEED TO IMPORT SOME DISCORD CERTS
-**13)**
+**13)** Import Certs from https://discordapp.com
+
 `certmgr -ssl https://discordapp.com`
 
-**14)**
+`certmgr -ssl -m https://discordapp.com`
+
+**14)** Import Certs from https://gateway.discord.gg
+
 `certmgr -ssl https://gateway.discord.gg`
 
-Type `yes` and hit Enter **(three times - as it will ask for three times)**
+`certmgr -ssl -m https://gateway.discord.gg`
+
+When prompted, type `yes` and hit Enter **(This can occur multiple times)**
 
 
 **15)**
